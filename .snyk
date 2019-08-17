@@ -1,0 +1,13 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:braces:20180219':
+    - babel-cli > chokidar > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2019-09-14T21:10:41.382Z'
+  'npm:content-type-parser:20170905':
+    - mock-browser > jsdom > content-type-parser:
+        reason: None given
+        expires: '2019-09-14T21:10:41.382Z'
+patch: {}

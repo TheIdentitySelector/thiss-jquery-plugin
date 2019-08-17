@@ -1,0 +1,65 @@
+{
+  "name": "thiss-jquery-plugins",
+  "version": "1.0.0",
+  "description": "JQuery Plugins for thiss.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "snyk test && ./node_modules/.bin/nyc --reporter=lcov -- ./node_modules/mocha/bin/_mocha --require @babel/register",
+    "lint": "node_modules/.bin/goodparts src",
+    "cover": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/coveralls/bin/coveralls.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheIdentitySelector/thiss-jquery-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheIdentitySelector/thiss-jquery-plugins/issues"
+  },
+  "keywords": [
+    "jquery",
+    "thiss.io"
+  ],
+  "author": "Leif Johansson",
+  "license": "BSD-2-Clause",
+  "homepage": "https://github.com/TheIdentitySelector/thiss-jquery-plugins#readme",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "@theidentityselector/thiss-ds": "^1.0.8",
+    "attest": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "bootstrap-list-filter": "https://github.com/leifj/bootstrap-list-filter/tarball/c8bd41ad1b9a02386a940d5edf210c41a4e20813",
+    "braces": "^3.0.2",
+    "chai": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "coveralls": "^3.0.6",
+    "css-loader": "^3.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "ejs-loader": "^0.3.3",
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "mocha": "^6.2.0",
+    "mock-browser": "^0.92.14",
+    "nyc": "^14.1.1",
+    "popper.js": "^1.15.0",
+    "snyk": "^1.216.5",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.1",
+    "webpack-polyfill-injector": "^3.0.2"
+  },
+  "snyk": true,
+  "devDependencies": {
+    "mini-css-extract-plugin": "^0.8.0"
+  }
+}

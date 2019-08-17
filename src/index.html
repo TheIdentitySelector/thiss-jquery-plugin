@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>SAML DS</title>
+</head>
+<body>
+    <main class="container" role="main">
+       <h1>Authenticate to<h1>
+       <h2><div class="sp_title"/></h2>
+       <ul class="list-unstyled" id="ds-saved-choices"></ul>
+       <div id="ds" 
+            data-persistence="https://use.thiss.io/ps"
+            data-mdq="https://md.thiss.io/entities/"
+            data-search="https://md.thiss.io/entities/"
+            data-inputfieldselector="#search">
+          <form>
+             <div class="form-content">
+                <input id="search" autocomplete="off" class="form-control" type="search" placeholder="Search for an identity provider..." autofocus>
+             </div>
+          </form>
+          <ul class="list-unstyled" id="ds-search-list"></ul>
+       </div>
+    </main>
+</body>
