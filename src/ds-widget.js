@@ -1,6 +1,7 @@
 
 $ = require("jquery");
-require("jquery-ui");
+
+import 'jquery-ui/ui/widget.js'
 import {DiscoveryService, parse_qs, json_mdq_search} from "@theidentityselector/thiss-ds";
 require("bootstrap-list-filter");
 

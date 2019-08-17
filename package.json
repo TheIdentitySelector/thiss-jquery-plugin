@@ -60,6 +60,7 @@
   },
   "snyk": true,
   "devDependencies": {
-    "mini-css-extract-plugin": "^0.8.0"
+    "mini-css-extract-plugin": "^0.8.0",
+    "webpack-bundle-analyzer": "^3.4.1"
   }
 }

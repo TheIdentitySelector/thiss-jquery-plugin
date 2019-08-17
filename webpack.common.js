@@ -17,6 +17,9 @@ module.exports = {
       'jquery-ds-widget': ['./src/ds-widget.js'],
       'demo': ['./src/demo.js'],
   },
+  externals: {
+    jquery: 'jQuery'
+  },
   plugins: [
       new DotEnv({systemvars: true}),
       new CleanWebpackPlugin(),
