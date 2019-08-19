@@ -1,8 +1,8 @@
 {
   "name": "@theidentityselector/thiss-jquery-plugins",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "JQuery Plugins for thiss.io",
-  "main": "index.js",
+  "main": "jquery.thiss.ds-widget.js",
   "scripts": {
     "test": "snyk test && ./node_modules/.bin/nyc --reporter=lcov -- ./node_modules/mocha/bin/_mocha --require @babel/register",
     "lint": "node_modules/.bin/goodparts src",

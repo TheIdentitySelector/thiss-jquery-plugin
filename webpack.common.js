@@ -14,7 +14,7 @@ module.exports = {
     }
   },
   entry: {
-      'jquery-ds-widget': ['./src/ds-widget.js'],
+      'jquery.thiss.ds-widget': ['./src/ds-widget.js'],
       'demo': ['./src/demo.js'],
   },
   externals: {
