@@ -2,17 +2,14 @@
 <head>
     <title>SAML DS</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+    <link rel="preload" href="https://use.thiss.io/ps" as="document"/>
 </head>
 <body>
     <main class="container" role="main">
        <h1>Authenticate to<h1>
        <h2><div class="sp_title"/></h2>
        <ul class="list-unstyled" id="ds-saved-choices"></ul>
-       <div id="ds" 
-            data-persistence="https://use.thiss.io/ps"
-            data-mdq="https://md.thiss.io/entities/"
-            data-search="https://md.thiss.io/entities/"
-            data-inputfieldselector="#search">
+       <div id="ds" data-inputfieldselector="#search">
           <form>
              <div class="form-content">
                 <input id="search" autocomplete="off" class="form-control" type="search" placeholder="Search for an identity provider..." autofocus>

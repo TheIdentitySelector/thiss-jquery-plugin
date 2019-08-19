@@ -20,6 +20,15 @@ module.exports = {
   externals: {
     jquery: 'jQuery'
   },
+  node: {
+      console: false,
+      global: true,
+      process: true,
+      __filename: 'mock',
+      __dirname: 'mock',
+      Buffer: false,
+      setImmediate: true
+  },
   plugins: [
       new DotEnv({systemvars: true}),
       new CleanWebpackPlugin(),
