@@ -5,9 +5,15 @@ ignore:
   'npm:braces:20180219':
     - babel-cli > chokidar > anymatch > micromatch > braces:
         reason: None given
-        expires: '2019-09-14T21:10:41.382Z'
+        expires: '2019-09-18T12:10:55.619Z'
+    - '@theidentityselector/thiss-ds > babel-cli > chokidar > anymatch > micromatch > braces':
+        reason: None given
+        expires: '2019-09-18T12:10:55.619Z'
   'npm:content-type-parser:20170905':
     - mock-browser > jsdom > content-type-parser:
         reason: None given
-        expires: '2019-09-14T21:10:41.382Z'
+        expires: '2019-09-18T12:10:55.619Z'
+    - '@theidentityselector/thiss-ds > mock-browser > jsdom > content-type-parser':
+        reason: None given
+        expires: '2019-09-18T12:10:55.619Z'
 patch: {}

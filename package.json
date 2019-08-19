@@ -1,6 +1,6 @@
 {
   "name": "@theidentityselector/thiss-jquery-plugins",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JQuery Plugins for thiss.io",
   "main": "index.js",
   "scripts": {
