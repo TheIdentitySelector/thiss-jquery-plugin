@@ -23,7 +23,7 @@ $(document).ready(function() {
       persistence: ps,
       search: 'https://md.thiss.io/entities/',
       mdq: 'https://md.thiss.io/entities/',
-      render: function (item) { 
+      render: function (item) {
          let template = `
 <a class="identityprovider" data-href="${item.entity_id}">
    <li>
