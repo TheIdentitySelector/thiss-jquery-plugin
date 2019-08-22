@@ -21,7 +21,7 @@ ES6-style
 
   import '@theidentityselector/thiss-jquery-plugin';
 
-CDN (thanks to [unpkg.com](https://unpkg.com))
+CDN (thanks to `unpkg.com <https://unpkg.com>`_)
 
 .. code-block:: html
 
