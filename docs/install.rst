@@ -1,5 +1,5 @@
-Installing thiss-ds-js
-======================
+Installing thiss-jquery-plugins
+===============================
 
 Install via npm is straight-forward:
 
