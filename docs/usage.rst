@@ -1,5 +1,5 @@
-Using thiss-jquery-plugins
-==========================
+Using thiss-jquery-plugin
+=========================
 
 Overview
 --------

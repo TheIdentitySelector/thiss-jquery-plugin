@@ -7,7 +7,7 @@ The Identity Selector Software suite is a front-channel identity selector for di
 
 The system was designed with privacy as the number one focus. No information is shared with the relying party during the identity provider choice process. This is ensured by relying on the browser security model and judicious use of inter-domain communicatiton using post-message.
 
-This package (thiss-jquery-plugins) contains a jQuery plugin for building your own discovery service on top of a thiss-js service (eg use.thiss.io or service.seamlessaccess.org).
+This package (thiss-jquery-plugin) contains a jQuery plugin for building your own discovery service on top of a thiss-js service (eg use.thiss.io or service.seamlessaccess.org).
 
 Architecture
 ------------

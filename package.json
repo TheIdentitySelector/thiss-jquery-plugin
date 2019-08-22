@@ -1,8 +1,8 @@
 {
-  "name": "@theidentityselector/thiss-jquery-plugins",
+  "name": "@theidentityselector/thiss-jquery-plugin",
   "version": "1.0.4",
-  "description": "JQuery Plugins for thiss.io",
-  "main": "jquery.thiss.ds-widget.js",
+  "description": "JQuery Plugin for thiss.io",
+  "main": "jquery.thiss.js",
   "scripts": {
     "test": "snyk test && ./node_modules/.bin/nyc --reporter=lcov -- ./node_modules/mocha/bin/_mocha --require @babel/register",
     "lint": "node_modules/.bin/goodparts src",
@@ -14,10 +14,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheIdentitySelector/thiss-jquery-plugins.git"
+    "url": "git+https://github.com/TheIdentitySelector/thiss-jquery-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/TheIdentitySelector/thiss-jquery-plugins/issues"
+    "url": "https://github.com/TheIdentitySelector/thiss-jquery-plugin/issues"
   },
   "keywords": [
     "jquery",
@@ -25,7 +25,7 @@
   ],
   "author": "Leif Johansson",
   "license": "BSD-2-Clause",
-  "homepage": "https://github.com/TheIdentitySelector/thiss-jquery-plugins#readme",
+  "homepage": "https://github.com/TheIdentitySelector/thiss-jquery-plugin#readme",
   "dependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
