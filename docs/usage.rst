@@ -14,7 +14,7 @@ Combined these capabilities form the basis upon which an identity UX can be buil
 Discovery Service
 -----------------
 
-There is a simple demo application in index.html/demo.js/demo.css also provided as a standalone application in the `thiss-examples <https://github.com/TheIdentitySelector/thiss-examples>_` repository. Initializing the plugin is pretty straight-formward. This example illustrates the minimal set of required attributes:
+There is a simple demo application in index.html/demo.js/demo.css also provided as a standalone application in the `thiss-examples <https://github.com/TheIdentitySelector/thiss-examples>`_ repository. Initializing the plugin is pretty straight-formward. This example illustrates the minimal set of required attributes:
 
 .. code-block:: js
 
@@ -30,7 +30,7 @@ There is a simple demo application in index.html/demo.js/demo.css also provided 
      entity_selector: '.identityprovider'
    });
 
-Typically this is done inside a standard jQuery ``$(document).ready { ... }`` wrapper. The persistence is either an instance of the ``PersitenceService`` class from `thiss-ds-js <https://github.com/TheIdentitySelector/thiss-ds-js>_` or the URL of a persistence service as in the example above. The search and mdq paramaters are either URLs or callable javascript functions which take a single string argument (entityID or search string) and return an entity or list of entities as apropriate. The format of the returned objects must observe the schema from `thiss-ds-js <https://github.com/TheIdentitySelector/thiss-ds-js>_`.
+Typically this is done inside a standard jQuery ``$(document).ready { ... }`` wrapper. The persistence is either an instance of the ``PersitenceService`` class from `thiss-ds-js <https://github.com/TheIdentitySelector/thiss-ds-js>`_ or the URL of a persistence service as in the example above. The search and mdq paramaters are either URLs or callable javascript functions which take a single string argument (entityID or search string) and return an entity or list of entities as apropriate. The format of the returned objects must observe the schema from `thiss-ds-js <https://github.com/TheIdentitySelector/thiss-ds-js>`_.
 
 This call would initialize an identity selector on ``selector`` which is assumed to be a ``div`` or similar. Search results are rendered using the render function (must return DOM nodes matching the ``entity_selector`` selector) in the ``search_result_selector`` element. If present any saved choices from the persistence service are show in ``saved_choices_selector``. The other attributes should be pretty-self-explanatory.
 
