@@ -50,7 +50,7 @@
     "mock-browser": "^0.92.14",
     "nyc": "^14.1.1",
     "popper.js": "^1.15.0",
-    "snyk": "^1.216.5",
+    "snyk": "^1.298.1",
     "style-loader": "^0.23.1",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.6",
